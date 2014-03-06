@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>VTEXPractices.AWS.S3</id>
+    <version>2.2.0</version>
+    <title>VTEX Practices AWS S3 Library</title>
+    <authors>VTEX Lab</authors>
+    <owners>VTEX Lab</owners>
+    <projectUrl>https://github.com/vtex/pnp.aws-s3</projectUrl>
+    <iconUrl>https://nugetgallery.blob.core.windows.net/icons/VTEXPractices.AWS.S3.2.2.0.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Biblioteca para acesso ao Amazon S3.</description>
+    <summary>Biblioteca para acesso ao Amazon S3.</summary>
+    <copyright>Copyright © Vtex 2013</copyright>
+    <tags>aws s3 awssdk practices vtex</tags>
+    <dependencies>
+      <dependency id="AWSSDK" version="2.0.2.4" />
+    </dependencies>
+  </metadata>
+</package>

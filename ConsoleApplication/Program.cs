@@ -9,6 +9,14 @@ namespace ConsoleApplication
         {
             OMSData data = new OMSData(Guid.NewGuid(), 10);
             string s = data.AccountName;
+
+            DenyBook denyBook = new DenyBook();
+    
+            if (denyBook.DeniedList.Contains("teste"))
+                System.Console.WriteLine("Negado");
+            System.Console.ReadLine();
+            
+         
         }
     }
 }

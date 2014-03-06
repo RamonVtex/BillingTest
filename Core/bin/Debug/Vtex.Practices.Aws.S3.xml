@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vtex.Practices.Aws.S3</name>
+    </assembly>
+    <members>
+        <member name="M:Vtex.Practices.Aws.S3.IAmazonS3Adapter.GetTextAsync(System.String)">
+            <summary>
+            Retrieves a text file with a given key
+            </summary>
+            <param name="filePath">The path (key) to the file</param>
+        </member>
+        <member name="M:Vtex.Practices.Aws.S3.IAmazonS3Adapter.GetFileAsync(System.String)">
+            <summary>
+            Retrieves the stream for a file with a given key
+            </summary>
+            <param name="filePath">The path (key) to the file</param>
+        </member>
+        <member name="M:Vtex.Practices.Aws.S3.IAmazonS3Adapter.PutTextAsync(System.String,System.String)">
+            <summary>
+            Saves a text file. If the file does not exist, it will be created.
+            </summary>
+            <param name="filePath">Path (key) to the file</param>
+            <param name="fileContents">Text contents</param>
+        </member>
+        <member name="M:Vtex.Practices.Aws.S3.IAmazonS3Adapter.PutFileAsync(System.String,System.IO.Stream)">
+            <summary>
+            Saves a file from a stream. If the file does not exist, it will be created.
+            </summary>
+            <param name="filePath">Path (key) to the file</param>
+            <param name="fileStream">The file stream</param>
+        </member>
+        <member name="M:Vtex.Practices.Aws.S3.IAmazonS3Adapter.DeleteFileAsync(System.String)">
+            <summary>
+            Deletes a file
+            </summary>
+            <param name="filePath">Path (key) to the file</param>
+        </member>
+        <member name="M:Vtex.Practices.Aws.S3.IAmazonS3Adapter.DeleteFilesAsync(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Deletes multiple files
+            </summary>
+            <param name="filePaths">Paths (keys) to the files</param>
+        </member>
+        <member name="M:Vtex.Practices.Aws.S3.IAmazonS3Adapter.ListFilesAsync(System.String)">
+            <summary>
+            Gets the paths of every file with a given prefix
+            </summary>
+            <param name="directoryPath">Path prefix (can be a directory)</param>
+        </member>
+        <member name="M:Vtex.Practices.Aws.S3.IAmazonS3Adapter.ListRootFoldersAsync(System.String)">
+            <summary>
+            Gets the paths of every folder that is a child of a given directory
+            </summary>
+            <param name="directoryPath">Path to the parent folder</param>
+        </member>
+        <member name="M:Vtex.Practices.Aws.S3.IAmazonS3Adapter.CopyFilesAsync(System.String,System.String)">
+            <summary>
+            Copies every file from a given path prefix to another
+            </summary>
+            <param name="fromPath">Source path</param>
+            <param name="toPath">Destination path</param>
+        </member>
+        <member name="T:Vtex.Practices.Aws.S3.AmazonS3AdapterExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Vtex.Practices.Aws.S3.AmazonS3AdapterExtensions.PutTextIfChangedAsync(Vtex.Practices.Aws.S3.IAmazonS3Adapter,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="adapter"></param>
+            <param name="filePath"></param>
+            <param name="fileContents"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vtex.Practices.Aws.S3.AmazonS3AdapterExtensions.PutTextIfChangedAsync(Vtex.Practices.Aws.S3.IAmazonS3Adapter,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            
+            </summary>
+            <param name="adapter"></param>
+            <param name="filePath"></param>
+            <param name="fileContents"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
