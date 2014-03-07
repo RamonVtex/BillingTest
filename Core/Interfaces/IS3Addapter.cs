@@ -9,6 +9,6 @@ namespace Vtex.Billing.Core.Interfaces
 {
    public interface IS3Addapter
     {
-      
+      //TODO: Implementar a interface de conexão com o S3
     }
 }

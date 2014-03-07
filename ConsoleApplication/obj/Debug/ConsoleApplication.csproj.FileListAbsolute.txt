@@ -21,3 +21,5 @@ C:\Users\VTEX\Documents\GitHub\BillingTest\ConsoleApplication\bin\Debug\AWSSDK.p
 C:\Users\VTEX\Documents\GitHub\BillingTest\ConsoleApplication\bin\Debug\Newtonsoft.Json.xml
 C:\Users\VTEX\Documents\GitHub\BillingTest\ConsoleApplication\bin\Debug\Vtex.Practices.Aws.S3.pdb
 C:\Users\VTEX\Documents\GitHub\BillingTest\ConsoleApplication\bin\Debug\Vtex.Practices.Aws.S3.xml
+C:\Users\VTEX\Documents\GitHub\BillingTest\ConsoleApplication\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\VTEX\Documents\GitHub\BillingTest\ConsoleApplication\bin\Debug\System.Net.Http.Formatting.xml
